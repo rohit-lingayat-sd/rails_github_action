@@ -1,0 +1,13 @@
+name: continuse integration
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+job:
+  test:
+    runs-on: ubuntu-latest
+  services:
+    
