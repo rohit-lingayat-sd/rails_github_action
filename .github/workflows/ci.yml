@@ -2,9 +2,9 @@ name: Continuse integration
 
 on:
   push:
-    branches: [master]
+    branches: [master, develop, staging]
   pull_request:
-    branches: [master]
+    branches: [master, develop, staging]
 
 jobs:
   test:
