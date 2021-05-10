@@ -1,4 +1,4 @@
-name: Continuse integration
+name: Continuous integration
 
 on:
   push:
